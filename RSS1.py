@@ -27,16 +27,16 @@ from browser_utils import click_button_in_order
 from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
-BASE_URL = "https://www.mhlw.go.jp/stf/shingi-yakuji_39225.html"
-GAKKAI = "薬事審議会（医薬品等安全対策部会（安全対策調査会））"
+BASE_URL = "https://www.iyaku.info/column/"
+GAKKAI = "医薬情報研究所（医情研通信）"
 
-SELECTOR_TITLE = "table.m-tableFlex tr"
-title_selector = ""
+SELECTOR_TITLE = "div#colum_list div.__cms.pull_l"
+title_selector = "a"
 title_index = 0
 href_selector = "a"
-href_index = 1
-SELECTOR_DATE = "table.m-tableFlex tr"
-date_selector = ""
+href_index = 0
+SELECTOR_DATE = "div#colum_list dl.dl_list.pull_l.mr20"
+date_selector = "dd"
 date_index = 0
 year_unit = "年"
 month_unit = "月"
