@@ -1,1 +1,1 @@
-# IyakuJyoho
+# Gakkai
